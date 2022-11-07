@@ -1,5 +1,7 @@
 fn main() {
     let needle = 54;
+    let a = String::from("test") + " <->a";
+    println!("{}", a);
     let haystack = [1, 1, 2, 5, 14, 54, 132];
     for item in &haystack {
         let result = match item {
